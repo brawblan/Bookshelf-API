@@ -1,0 +1,40 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "Backend API to connect with MongoDB for Bookstagram Web App",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Blankenstein",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.157.0",
+    "@aws-sdk/s3-request-presigner": "^3.100.0",
+    "aws-sdk": "^2.853.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "express-fileupload": "^1.4.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.4.0",
+    "helmet": "^5.1.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.7.5",
+    "sharp": "^0.30.6",
+    "slugify": "^1.6.5",
+    "uuid": "^8.3.2",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
